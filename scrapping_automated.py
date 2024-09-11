@@ -81,7 +81,8 @@ def extract_elements_html_with_navigation_to_file(n_start, n_end):
             except Exception as e:
                 print(f"Element not found for {xpath}: {str(e)}")
 
-    # Optional sleep between iterations
+    # Optional sleep between iterations to avoid detection
+
 time.sleep(1)
 
 
