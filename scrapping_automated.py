@@ -88,5 +88,5 @@ time.sleep(1)
 # Call the function to extract and save HTML content
 extract_elements_html_with_navigation_to_file(4, 14)
 
-# get back
+#close the chrome browser
 driver.quit()
